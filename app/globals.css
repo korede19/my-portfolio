@@ -36,6 +36,7 @@ a {
   --btn-color: #13133a;
   --font-inter: "Outfit", sans-serif;
   --color: #ffffff;
+  --icon-hover: #ffffff;
 }
 
 [data-theme="light"] {
@@ -45,4 +46,5 @@ a {
   --font-inter: "Outfit", sans-serif;
   --btn-background: #13133a;
   --btn-color: #ffffff;
+  --icon-hover: #13133a;
 }

@@ -1,3 +1,5 @@
+import styles from "../app/page.module.css";
+
 const AboutIcon = () => {
   return (
     <svg
@@ -14,6 +16,7 @@ const AboutIcon = () => {
         fill="#4B4B74"
         fill-opacity="0.5"
         cursor="pointer"
+        className={styles.iconHover}
       />
     </svg>
   );

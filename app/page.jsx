@@ -5,6 +5,7 @@ import AboutIcon from "@/svg/about";
 import PortfolioIcon from "@/svg/portfolio";
 import TestimonialIcon from "@/svg/testimonial";
 import ContactIcon from "@/svg/contact";
+import FloatingNav from "@/components/floatingNav/floatNav";
 
 export default function Home() {
   return (
@@ -41,11 +42,7 @@ export default function Home() {
       </div>
       <div className={styles.colTwo}>
         <div className={styles.iconMenu}>
-          <HomeIcon />
-          <AboutIcon />
-          <PortfolioIcon />
-          <TestimonialIcon />
-          <ContactIcon />
+          <FloatingNav />
         </div>
       </div>
     </div>

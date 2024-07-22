@@ -1,3 +1,5 @@
+import styles from "../app/page.module.css";
+
 const TestimonialIcon = () => {
   return (
     <svg
@@ -12,6 +14,7 @@ const TestimonialIcon = () => {
         fill="#4B4B74"
         fill-opacity="0.5"
         cursor="pointer"
+        className={styles.iconHover}
       />
     </svg>
   );
