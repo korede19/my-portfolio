@@ -38,7 +38,7 @@
 
 .colTwo {
   width: 50%;
-  background-image: url("../assets/profile.png");
+  background-image: url("../public/assets/profile.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

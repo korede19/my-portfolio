@@ -1,11 +1,8 @@
-import HomeIcon from "@/svg/home";
+import React from "react";
 import ThemeToggleButton from "../components/toggle/toggle";
 import styles from "./page.module.css";
-import AboutIcon from "@/svg/about";
-import PortfolioIcon from "@/svg/portfolio";
-import TestimonialIcon from "@/svg/testimonial";
-import ContactIcon from "@/svg/contact";
 import FloatingNav from "@/components/floatingNav/floatNav";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -36,7 +33,9 @@ export default function Home() {
             </p>
           </div>
           <div className={styles.btnContain}>
-            <button>More About Me</button>
+            <Link href="/about">
+              <button>More About Me</button>
+            </Link>
           </div>
         </div>
       </div>

@@ -4,7 +4,10 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: background 5s ease, color 1s ease-in;
+}
+
+* {
+  transition: background 1s ease-in-out;
 }
 
 h1,
@@ -37,14 +40,16 @@ a {
   --font-inter: "Outfit", sans-serif;
   --color: #ffffff;
   --icon-hover: #ffffff;
+  --link-text: #4b4b74;
 }
 
 [data-theme="light"] {
   --background: #fffef2;
-  --background-2: #fffef2;
+  --background-2: #ffffff;
   --color: #13133a;
   --font-inter: "Outfit", sans-serif;
   --btn-background: #13133a;
   --btn-color: #ffffff;
   --icon-hover: #13133a;
+  --link-text: #25254680;
 }
