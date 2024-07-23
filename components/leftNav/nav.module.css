@@ -1,10 +1,3 @@
-/* .navContainer {
-  height: 100vh;
-  width: 30%;
-  background-color: var(--background-2);
-  position: absolute;
-} */
-
 .imageContain {
   height: 384px;
   background-image: url("../../public/assets/profile.png");
@@ -30,10 +23,19 @@
   text-align: center;
   color: var(--link-text);
   cursor: pointer;
+  text-decoration: none;
+}
+
+.linkStyle {
+  text-decoration: none;
 }
 
 .menuContain p:hover {
   color: var(--icon-hover);
+}
+
+.menuContain .linkStyle p:visited {
+  color: red;
 }
 
 .globalBtn {

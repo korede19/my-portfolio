@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./nav.module.css";
 import Arrow from "@/svg/arrow";
 import ThemeToggleButton from "../toggle/toggle";
+import Link from "next/link";
 
 const LeftNav = () => {
   return (
@@ -9,9 +10,13 @@ const LeftNav = () => {
       <div className={styles.navContainer}>
         <div className={styles.imageContain}></div>
         <div className={styles.menuContain}>
-          <p>Home</p>
+          <Link href="/" className={styles.linkStyle}>
+            <p>Home</p>
+          </Link>
           <Arrow />
-          <p>About Me</p>
+          <Link href="/about" className={styles.linkStyle}>
+            <p>About Me</p>
+          </Link>
           <Arrow />
           <p>Portfolio</p>
           <Arrow />

@@ -1,0 +1,17 @@
+.mediaContain {
+  padding: 15px 20px;
+  height: 120px;
+  background-color: var(--background-2);
+  color: var(--color);
+  border-radius: 20px;
+  margin-top: 30px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.mediaContain h3 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30.24px;
+  text-align: left;
+  color: var(--color);
+}

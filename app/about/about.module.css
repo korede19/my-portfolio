@@ -24,7 +24,7 @@
 .aboutText {
   background-color: var(--background-2);
   color: var(--color);
-  margin-top: 80px;
+  margin-top: 50px;
   padding: 28px 20px;
   display: flex;
   flex-direction: column;

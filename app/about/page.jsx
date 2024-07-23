@@ -4,6 +4,7 @@ import LeftNav from "@/components/leftNav/nav";
 import Header from "@/components/pageHead/head";
 import FloatingNav from "@/components/floatingNav/floatNav";
 import AboutTab from "@/components/aboutTab/aboutTab";
+import Media from "@/components/media/media";
 
 const AboutPage = () => {
   return (
@@ -27,6 +28,9 @@ const AboutPage = () => {
           </div>
           <div className={styles.aboutTab}>
             <AboutTab />
+          </div>
+          <div className={styles.mediaTab}>
+            <Media />
           </div>
         </div>
         <div className={styles.colThree}>
