@@ -1,0 +1,28 @@
+.skillcontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  background-color: var(--background-2);
+  padding: 30px;
+  border-radius: 20px;
+  height: 250px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.skillcontainer h3 {
+  font-size: 24px;
+  color: var(--color);
+}
+.gridContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 16px;
+}
+
+.itemOne h4 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.64px;
+  text-align: left;
+  color: var(--color);
+}

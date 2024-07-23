@@ -1,0 +1,12 @@
+.Tabcontain {
+  display: flex;
+  gap: 20px;
+}
+
+.tabOne {
+  width: 50%;
+}
+
+.tabTwo {
+  width: 50%;
+}

@@ -3,6 +3,7 @@ import styles from "./about.module.css";
 import LeftNav from "@/components/leftNav/nav";
 import Header from "@/components/pageHead/head";
 import FloatingNav from "@/components/floatingNav/floatNav";
+import AboutTab from "@/components/aboutTab/aboutTab";
 
 const AboutPage = () => {
   return (
@@ -23,6 +24,9 @@ const AboutPage = () => {
               pulvinar. Urna ut viverra augue sit quam. Bibendum at maecenas
               phasellus donec amet vel bibendum consectetur.
             </p>
+          </div>
+          <div className={styles.aboutTab}>
+            <AboutTab />
           </div>
         </div>
         <div className={styles.colThree}>
