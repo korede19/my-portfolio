@@ -1,8 +1,10 @@
 "use client";
-
 import { useTheme } from "next-themes";
+import styles from "./toogle.module.css";
 import { Button } from "@nextui-org/react";
 import { useEffect } from "react";
+import DarkMode from "@/svg/dark";
+import LightMode from "@/svg/light";
 
 const ThemeToggleButton = () => {
   const { theme, setTheme } = useTheme();
@@ -13,9 +15,24 @@ const ThemeToggleButton = () => {
   });
 
   return (
-    <Button onClick={() => setTheme(theme === "light" ? "dark" : "light")}>
-      Switch to {theme === "light" ? "Dark" : "light"} Mode
-    </Button>
+    <>
+      <div className={styles.btnContain}>
+        <Button
+          className={styles.themeBtn}
+          onClick={() => setTheme("light")}
+          disabled={theme === "light"}
+        >
+          <DarkMode />
+        </Button>
+        <Button
+          className={styles.themeBtn}
+          onClick={() => setTheme("dark")}
+          disabled={theme === "dark"}
+        >
+          <LightMode />
+        </Button>
+      </div>
+    </>
   );
 };
 

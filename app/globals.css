@@ -40,17 +40,25 @@ a {
   --btn-color: #13133a;
   --font-inter: "Outfit", sans-serif;
   --color: #ffffff;
+  --color-2: #13133a;
   --icon-hover: #ffffff;
   --link-text: #4b4b74;
+  --icon-color: #d8d8d8;
+  --icon-color-2: #252546;
+  --shadow-color: #20207c;
 }
 
 [data-theme="light"] {
   --background: #fffef2;
   --background-2: #ffffff;
   --color: #13133a;
+  --color-2: #ffffff;
   --font-inter: "Outfit", sans-serif;
   --btn-background: #13133a;
   --btn-color: #ffffff;
   --icon-hover: #13133a;
   --link-text: #25254680;
+  --icon-color: #d8d8d8;
+  --icon-color-2: #252546;
+  --shadow-color: #c6c3a1;
 }

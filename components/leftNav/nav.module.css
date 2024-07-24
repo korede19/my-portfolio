@@ -1,9 +1,10 @@
 .imageContain {
-  height: 384px;
+  height: 30vh;
   background-image: url("../../public/assets/profile.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  transition: background 1s ease-in;
 }
 
 .menuContain {
@@ -12,7 +13,7 @@
   gap: 9px;
   justify-content: center;
   align-items: center;
-  padding-top: 85px;
+  height: 60vh;
 }
 
 .menuContain p {
@@ -38,8 +39,8 @@
   color: var(--color);
 }
 .globalBtn {
-  padding-top: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 10vh;
 }

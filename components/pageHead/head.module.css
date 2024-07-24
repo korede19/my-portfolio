@@ -1,6 +1,7 @@
 .headerContain {
   background-color: var(--background-2);
   padding: 12px 0px;
+  margin-top: 80px;
   box-shadow: 0px 4px 4px 0px #00000040;
   border-radius: 20px;
 }
