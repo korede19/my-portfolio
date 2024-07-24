@@ -34,10 +34,9 @@
   color: var(--icon-hover);
 }
 
-.menuContain .linkStyle p:visited {
-  color: red;
+.menuContain p:visited {
+  color: var(--color);
 }
-
 .globalBtn {
   padding-top: 40px;
   display: flex;
