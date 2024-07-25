@@ -102,3 +102,8 @@
   fill: var(--icon-hover);
   fill-opacity: 1;
 }
+
+.active {
+  fill: var(--icon-hover);
+  fill-opacity: 1;
+}

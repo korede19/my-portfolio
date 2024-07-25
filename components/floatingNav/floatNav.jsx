@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import styles from "./floatNav.module.css";
 import HomeIcon from "@/svg/home";
@@ -5,6 +6,7 @@ import AboutIcon from "@/svg/about";
 import PortfolioIcon from "@/svg/portfolio";
 import TestimonialIcon from "@/svg/testimonial";
 import ContactIcon from "@/svg/contact";
+import Link from "next/link";
 
 const FloatingNav = () => {
   return (
