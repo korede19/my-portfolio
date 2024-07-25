@@ -15,7 +15,7 @@ const Experience = ({ title }) => {
             - Freelance WordPress/ Frontend Developer from March 2022 - Present.
           </p>
           <p>
-            - 4Software Engineering Certificate from African Learning Experience
+            - Software Engineering Certificate from African Learning Experience
             ALX, August 2021 - 2022.
           </p>
         </div>
