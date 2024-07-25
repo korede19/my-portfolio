@@ -1,6 +1,6 @@
 .btnContain {
   display: flex;
-  width: 80px;
+  width: 90px;
   background-color: var(--background);
   padding: 10px 20px;
   gap: 20px;

@@ -17,13 +17,16 @@ const AboutPage = () => {
           <Header text="ABOUT ME" />
           <div className={styles.aboutText}>
             <p>
-              I’m <b>Korede Oyeyemi</b>, Web Developer/ Web Designer
+              Hi, I'm Korede Oyeyemi, a passionate web developer and designer
+              with 4 years of experience in HTML, CSS, and JavaScript frameworks
+              like React and Next.js.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Amet pellentesque
-              facilisis eu et laoreet. Congue dictum velit fermentum tincidunt
-              pulvinar. Urna ut viverra augue sit quam. Bibendum at maecenas
-              phasellus donec amet vel bibendum consectetur.
+              With a keen eye for detail and a love for creating beautiful,
+              user-friendly websites, I bring a unique blend of creativity and
+              technical skill to every project. I'm also proficient with
+              WordPress, enabling me to craft dynamic and responsive websites
+              that meet diverse client needs.
             </p>
           </div>
           <div className={styles.aboutTab}>

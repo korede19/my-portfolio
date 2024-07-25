@@ -19,17 +19,16 @@ export default function Home() {
           </div>
           <div className={styles.textBody}>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Vestibulum vitae pretium
-              porta et. Aliquam ac odio turpis quam nibh augue amet. Lorem vel
-              amet vitae et dui et aliquet. Condimentum faucibus rhoncus sit ut
-              sed blandit justo interdum. Ultrices quis enim feugiat gravida.
-              Odio nec at volutpat habitant.
+              Hi, Korede, a passionate web developer and designer with a keen
+              eye for detail and a love for creating beautiful, user-friendly
+              websites.
             </p>
             <p>
-              Mattis et non viverra lacus sodales amet a id maecenas. Convallis
-              orci ac pretium vivamus senectus. Neque feugiat sit justo sem
-              tellus ipsum vitae enim a. Sagittis vulputate nulla massa neque.
-              Cras purus ac et magna.
+              With expertise in both front-end development and design, I bring a
+              unique blend of creativity and technical skill to every project.
+              Whether it's crafting responsive layouts, developing interactive
+              features, or designing intuitive user interfaces, I thrive on
+              turning ideas into engaging digital experiences.
             </p>
           </div>
           <div className={styles.btnContain}>

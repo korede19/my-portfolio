@@ -17,10 +17,16 @@
   color: var(--color);
 }
 
-.expContainer p {
-  font-size: 20px;
+.textContain p {
+  font-size: 18px;
   font-weight: 300;
   line-height: 25.2px;
   text-align: left;
   color: var(--color);
+}
+
+.textContain {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
