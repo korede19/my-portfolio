@@ -1,3 +1,6 @@
+"use client";
+import classNames from "classnames";
+import { usePathname } from "next/navigation";
 import React from "react";
 import styles from "./nav.module.css";
 import Arrow from "@/svg/arrow";
@@ -5,6 +8,7 @@ import ThemeToggleButton from "../toggle/toggle";
 import Link from "next/link";
 
 const LeftNav = () => {
+  const pathname = usePathname();
   return (
     <>
       <div className={styles.navContainer}>
@@ -14,11 +18,23 @@ const LeftNav = () => {
             <p>Home</p>
           </Link>
           <Arrow />
-          <Link href="/about" className={styles.linkStyle}>
-            <p>About Me</p>
+          <Link href="/about" className={styles.linkStyle} passHref>
+            <p
+              className={classNames({ [styles.active]: pathname === "/about" })}
+            >
+              About Me
+            </p>
           </Link>
           <Arrow />
-          <p>Portfolio</p>
+          <Link href="/portfolio" className={styles.linkStyle}>
+            <p
+              className={classNames({
+                [styles.active]: pathname === "/portfolio",
+              })}
+            >
+              Portfolio
+            </p>
+          </Link>
           <Arrow />
           <p>Testimonials</p>
           <Arrow />

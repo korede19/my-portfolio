@@ -35,9 +35,11 @@
   color: var(--icon-hover);
 }
 
-.menuContain p:visited {
+.linkStyle .active {
   color: var(--color);
+  font-weight: 500;
 }
+
 .globalBtn {
   display: flex;
   flex-direction: column;
