@@ -16,7 +16,7 @@ const Experience = ({ title }) => {
           </p>
           <p>
             - Software Engineering Certificate from African Learning Experience
-            ALX, August 2021 - 2022.
+            (ALX), (August 2021 - 2022.)
           </p>
         </div>
       </div>
