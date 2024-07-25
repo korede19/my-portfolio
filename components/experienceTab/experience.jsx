@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./experience.module.css";
 
-const Experience = ({ title, text }) => {
+const Experience = ({ title }) => {
   return (
     <>
       <div className={styles.expContainer}>
