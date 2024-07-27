@@ -6,3 +6,18 @@
   gap: 32px 20px;
   padding: 30px 0px;
 }
+
+.tabContain {
+  display: flex;
+  padding: 30px 50px;
+  justify-content: space-between;
+}
+
+.tabContain p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30.24px;
+  text-align: left;
+  color: #4b4b7480;
+  cursor: pointer;
+}

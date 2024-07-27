@@ -8,24 +8,15 @@ import PortfolioAll from "@/components/portfolio-all/portfolio-all";
 const Portfolio = () => {
   return (
     <>
-      <div className={styles.pageContainer}>
-        <div className={styles.colOne}>
+      <div className={styles.pageContainer2}>
+        <div className={styles.colOne2}>
           <LeftNav />
         </div>
-        <div className={styles.colTwo}>
-          <div className={styles.portcontain}>
-            <Header text="PORTFOLIO" />
-          </div>
-          <div className={styles.tabContain}>
-            <p>All</p>
-            <p>Wordpress</p>
-            <p>Javascript</p>
-          </div>
-          {/* <div className={styles.PortfolioContain}> */}
+        <div className={styles.colTwo2}>
+          <Header text="PORTFOLIO" />
           <PortfolioAll />
-          {/* </div> */}
         </div>
-        <div className={styles.colThree}>
+        <div className={styles.colThree2}>
           <FloatingNav />
         </div>
       </div>

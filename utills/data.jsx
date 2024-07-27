@@ -35,31 +35,37 @@ export const portfolio = [
   {
     image: portImg,
     title: "LOREM IPSUM",
+    tech: "Wordpress",
     text: "Lorem ipsum dolor sit amet consectetur. Urna gravida nibh ac ut ullamcorper praesent faucibus. Vestibulum fermentum mauris ultrices nulla orci nulla vehicula fusce aliquam. .",
   },
   {
     image: portTwo,
     title: "LOREM IPSUM",
+    tech: "Wordpress",
     text: "Lorem ipsum dolor sit amet consectetur. Urna gravida nibh ac ut ullamcorper praesent faucibus. Vestibulum fermentum mauris ultrices nulla orci nulla vehicula fusce aliquam. .",
   },
   {
     image: portImg,
     title: "LOREM IPSUM",
+    tech: "Wordpress",
     text: "Lorem ipsum dolor sit amet consectetur. Urna gravida nibh ac ut ullamcorper praesent faucibus. Vestibulum fermentum mauris ultrices nulla orci nulla vehicula fusce aliquam. .",
   },
   {
     image: portTwo,
     title: "LOREM IPSUM",
+    tech: "Wordpress",
     text: "Lorem ipsum dolor sit amet consectetur. Urna gravida nibh ac ut ullamcorper praesent faucibus. Vestibulum fermentum mauris ultrices nulla orci nulla vehicula fusce aliquam. .",
   },
   {
     image: portImg,
     title: "LOREM IPSUM",
+    tech: "Wordpress",
     text: "Lorem ipsum dolor sit amet consectetur. Urna gravida nibh ac ut ullamcorper praesent faucibus. Vestibulum fermentum mauris ultrices nulla orci nulla vehicula fusce aliquam. .",
   },
   {
     image: portTwo,
     title: "LOREM IPSUM",
+    tech: "Javascript",
     text: "Lorem ipsum dolor sit amet consectetur. Urna gravida nibh ac ut ullamcorper praesent faucibus. Vestibulum fermentum mauris ultrices nulla orci nulla vehicula fusce aliquam. .",
   },
 ];

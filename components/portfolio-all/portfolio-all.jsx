@@ -1,22 +1,34 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import styles from "./portfolio-all.module.css";
 import { portfolio } from "@/utills/data";
 import Portfolio from "../portfolio/portfolio";
 
 const PortfolioAll = () => {
+  const [active, setActive] = useState("");
   return (
     <>
+      <div className={styles.tabContain}>
+        <p onClick={() => setActive("")}>All</p>
+        <p onClick={() => setActive("Wordpress")}>Wordpress</p>
+        <p onClick={() => setActive("Javascript")}>Javascript</p>
+      </div>
       <div className={styles.Container}>
-        {portfolio?.map((item, index) => {
-          return (
-            <Portfolio
-              key={index}
-              image={item.image}
-              title={item.title}
-              text={item.text}
-            />
-          );
-        })}
+        {portfolio
+          ?.filter((items) => {
+            if (active === "") return items;
+            else return items.tech === active;
+          })
+          ?.map((item, index) => {
+            return (
+              <Portfolio
+                key={index}
+                image={item.image}
+                title={item.title}
+                text={item.text}
+              />
+            );
+          })}
       </div>
     </>
   );
