@@ -7,6 +7,8 @@ import imageSix from "../public/assets/react.png";
 import imageSeven from "../public/assets/git.png";
 import imageEight from "../public/assets/next.png";
 import imageNine from "../public/assets/typescript.png";
+import portImg from "../public/assets/port1.png";
+import portTwo from "../public/assets/port2.png";
 
 export const expText = [
   {
@@ -26,5 +28,38 @@ export const logoImage = [
     image7: imageSeven,
     image8: imageEight,
     image9: imageNine,
+  },
+];
+
+export const portfolio = [
+  {
+    image: portImg,
+    title: "LOREM IPSUM",
+    text: "Lorem ipsum dolor sit amet consectetur. Urna gravida nibh ac ut ullamcorper praesent faucibus. Vestibulum fermentum mauris ultrices nulla orci nulla vehicula fusce aliquam. .",
+  },
+  {
+    image: portTwo,
+    title: "LOREM IPSUM",
+    text: "Lorem ipsum dolor sit amet consectetur. Urna gravida nibh ac ut ullamcorper praesent faucibus. Vestibulum fermentum mauris ultrices nulla orci nulla vehicula fusce aliquam. .",
+  },
+  {
+    image: portImg,
+    title: "LOREM IPSUM",
+    text: "Lorem ipsum dolor sit amet consectetur. Urna gravida nibh ac ut ullamcorper praesent faucibus. Vestibulum fermentum mauris ultrices nulla orci nulla vehicula fusce aliquam. .",
+  },
+  {
+    image: portTwo,
+    title: "LOREM IPSUM",
+    text: "Lorem ipsum dolor sit amet consectetur. Urna gravida nibh ac ut ullamcorper praesent faucibus. Vestibulum fermentum mauris ultrices nulla orci nulla vehicula fusce aliquam. .",
+  },
+  {
+    image: portImg,
+    title: "LOREM IPSUM",
+    text: "Lorem ipsum dolor sit amet consectetur. Urna gravida nibh ac ut ullamcorper praesent faucibus. Vestibulum fermentum mauris ultrices nulla orci nulla vehicula fusce aliquam. .",
+  },
+  {
+    image: portTwo,
+    title: "LOREM IPSUM",
+    text: "Lorem ipsum dolor sit amet consectetur. Urna gravida nibh ac ut ullamcorper praesent faucibus. Vestibulum fermentum mauris ultrices nulla orci nulla vehicula fusce aliquam. .",
   },
 ];

@@ -9,11 +9,15 @@
 }
 .colTwo {
   flex: 1;
-  padding: 0px 80px;
   background-color: var(--background);
   height: 100vh;
   overflow-y: scroll;
+  padding: 0px 80px;
 }
+
+/* .portcontain {
+  padding: 0 80px;
+} */
 
 .colTwo::-webkit-scrollbar {
   background-color: var(--background-2);
@@ -41,4 +45,18 @@
   justify-content: center;
   padding: 0px 36px;
   height: 100vh;
+}
+
+.tabContain {
+  display: flex;
+  padding: 30px 50px;
+  justify-content: space-between;
+}
+
+.tabContain p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30.24px;
+  text-align: left;
+  color: #4b4b7480;
 }

@@ -1,0 +1,49 @@
+.portContainer {
+  color: var(--color);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.portContainer img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.portContainer h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25.2px;
+  text-align: left;
+}
+
+.portContainer p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.16px;
+  text-align: left;
+}
+
+.portBtn {
+  font-size: "outfit", sans-serif;
+  width: 133px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 10px 25px;
+  background-color: #252546;
+  color: #fff;
+  border: 0px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25.2px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.portBtn:hover {
+  background-color: #fff;
+  color: #252546;
+  border: 1px solid #252546;
+}
