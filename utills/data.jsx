@@ -9,6 +9,7 @@ import imageEight from "../public/assets/next.png";
 import imageNine from "../public/assets/typescript.png";
 import portImg from "../public/assets/port1.png";
 import portTwo from "../public/assets/port2.png";
+import Testimonialimg from "../public/assets/testimonial.png";
 
 export const expText = [
   {
@@ -86,5 +87,23 @@ export const portfolio = [
     title: "LOREM IPSUM",
     tech: "Javascript",
     text: "Lorem ipsum dolor sit amet consectetur. Urna gravida nibh ac ut ullamcorper praesent faucibus. Vestibulum fermentum mauris ultrices nulla orci nulla vehicula fusce aliquam. .",
+  },
+];
+
+export const Testimonial = [
+  {
+    image: Testimonialimg,
+    title: "LOREM IPSUM",
+    text: "Lorem ipsum dolor sit amet consectetur. Vel viverra vitae condimentum integer ut nullam semper lacus ipsum. Nisi semper malesuada condimentum sem sollicitudin ac.",
+  },
+  {
+    image: Testimonialimg,
+    title: "LOREM IPSUM",
+    text: "Lorem ipsum dolor sit amet consectetur. Vel viverra vitae condimentum integer ut nullam semper lacus ipsum. Nisi semper malesuada condimentum sem sollicitudin ac.",
+  },
+  {
+    image: Testimonialimg,
+    title: "LOREM IPSUM",
+    text: "Lorem ipsum dolor sit amet consectetur. Vel viverra vitae condimentum integer ut nullam semper lacus ipsum. Nisi semper malesuada condimentum sem sollicitudin ac.",
   },
 ];

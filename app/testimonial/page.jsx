@@ -3,6 +3,7 @@ import styles from "./testimonials.module.css";
 import LeftNav from "@/components/leftNav/nav";
 import Header from "@/components/pageHead/head";
 import FloatingNav from "@/components/floatingNav/floatNav";
+import TestimonialAll from "@/components/testimonial-all/testimonial-all";
 
 const Testimonials = () => {
   return (
@@ -12,7 +13,8 @@ const Testimonials = () => {
           <LeftNav />
         </div>
         <div className={styles.colTwo3}>
-          <Header text="Testimonials" />
+          <Header text="TESTIMONIALS" />
+          <TestimonialAll />
         </div>
         <div className={styles.colThree3}>
           <FloatingNav />
