@@ -15,9 +15,20 @@
 
 .tabContain p {
   font-size: 24px;
+  width: 200px;
+  padding: 10px 0px;
   font-weight: 500;
   line-height: 30.24px;
   text-align: left;
-  color: #4b4b7480;
   cursor: pointer;
+  transition: unset;
+  text-align: center;
+  color: var(--color);
+}
+
+.active {
+  background-color: #252546;
+  border-radius: 4px;
+  transition: unset;
+  color: #fff !important;
 }

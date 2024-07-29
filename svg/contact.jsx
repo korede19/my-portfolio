@@ -21,7 +21,7 @@ const ContactIcon = () => {
           cursor="pointer"
           // className={styles.iconHover}
           className={classNames({
-            [styles.active]: pathname === "/testimonial",
+            [styles.active]: pathname === "/contact",
           })}
         />
       </svg>

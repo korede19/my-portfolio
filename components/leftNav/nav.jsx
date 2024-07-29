@@ -36,7 +36,15 @@ const LeftNav = () => {
             </p>
           </Link>
           <Arrow />
-          <p>Testimonials</p>
+          <Link href="/testimonial" className={styles.linkStyle}>
+            <p
+              className={classNames({
+                [styles.active]: pathname === "/testimonial",
+              })}
+            >
+              Testimonials
+            </p>
+          </Link>
           <Arrow />
           <p>Contact</p>
         </div>

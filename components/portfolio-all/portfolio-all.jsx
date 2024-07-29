@@ -9,9 +9,24 @@ const PortfolioAll = () => {
   return (
     <>
       <div className={styles.tabContain}>
-        <p onClick={() => setActive("")}>All</p>
-        <p onClick={() => setActive("Wordpress")}>Wordpress</p>
-        <p onClick={() => setActive("Javascript")}>Javascript</p>
+        <p
+          className={active === "" ? styles.active : ""}
+          onClick={() => setActive("")}
+        >
+          All
+        </p>
+        <p
+          onClick={() => setActive("Wordpress")}
+          className={active === "Wordpress" ? styles.active : ""}
+        >
+          Wordpress
+        </p>
+        <p
+          className={active === "Javascript" ? styles.active : ""}
+          onClick={() => setActive("Javascript")}
+        >
+          Javascript
+        </p>
       </div>
       <div className={styles.Container}>
         {portfolio

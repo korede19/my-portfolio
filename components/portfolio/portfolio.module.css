@@ -46,4 +46,5 @@
   background-color: #fff;
   color: #252546;
   border: 1px solid #252546;
+  transition: unset;
 }
