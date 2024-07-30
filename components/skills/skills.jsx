@@ -19,39 +19,57 @@ const Skills = ({
         <h3>Skills</h3>
         <div className={styles.gridContainer}>
           <div className={styles.itemOne}>
-            <Image src={image1} width={32} height={32} alt="html" />
+            <Image src={image1} width={32} height={32} alt="html" priority />
             <h4>HTML 5</h4>
           </div>
           <div className={styles.itemOne}>
-            <Image src={image2} width={32} height={32} alt="css" />
+            <Image src={image2} width={32} height={32} alt="css" priority />
             <h4>CSS 3</h4>
           </div>
           <div className={styles.itemOne}>
-            <Image src={image3} width={32} height={32} alt="Javascript" />
+            <Image
+              src={image3}
+              width={32}
+              height={32}
+              alt="Javascript"
+              priority
+            />
             <h4>Javascript</h4>
           </div>
           <div className={styles.itemOne}>
-            <Image src={image4} width={32} height={32} alt="Figma" />
+            <Image src={image4} width={32} height={32} alt="Figma" priority />
             <h4>Figma</h4>
           </div>
           <div className={styles.itemOne}>
-            <Image src={image5} width={32} height={32} alt="Wordpress" />
+            <Image
+              src={image5}
+              width={32}
+              height={32}
+              alt="Wordpress"
+              priority
+            />
             <h4>WordPress</h4>
           </div>
           <div className={styles.itemOne}>
-            <Image src={image6} width={32} height={32} alt="Reactjs" />
+            <Image src={image6} width={32} height={32} alt="Reactjs" priority />
             <h4>React JS</h4>
           </div>
           <div className={styles.itemOne}>
-            <Image src={image7} width={32} height={32} alt="Git" />
+            <Image src={image7} width={32} height={32} alt="Git" priority />
             <h4>Git</h4>
           </div>
           <div className={styles.itemOne}>
-            <Image src={image8} width={32} height={32} alt="Next Js" />
+            <Image src={image8} width={32} height={32} alt="Next Js" priority />
             <h4>Next JS</h4>
           </div>
           <div className={styles.itemOne}>
-            <Image src={image9} width={32} height={32} alt="Typescript" />
+            <Image
+              src={image9}
+              width={32}
+              height={32}
+              alt="Typescript"
+              priority
+            />
             <h4>Typescript</h4>
           </div>
         </div>
