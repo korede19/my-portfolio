@@ -1,13 +1,14 @@
-export async function getServerSideProps() {
-  const data = await fetchData();
+export async function getServerSideProps({ context }) {
+  // Fetch data from external API
+  const data = await fetch(`YOUR_API`);
+
+  // Returning the fetched data
   return { props: { data } };
 }
 
-const MyPage = ({ data }) => (
-  <div>
-    <h1>My Page</h1>
-    <p>{data}</p>
-  </div>
-);
+function SSRPage({ data }) {
+  // Displaying the data to the client
+  return <div>{data}</div>;
+}
 
-export default MyPage;
+export default SSRPage;
