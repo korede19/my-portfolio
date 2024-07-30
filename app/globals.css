@@ -47,6 +47,8 @@ a {
   --shadow-color: #20207c;
   --tab-hover: #ffffff;
   --tab-hover-color: #4f4f75;
+  --border-color: #ffffff80;
+  --placeholder: #ffffff80;
 }
 
 [data-theme="light"] {
@@ -64,4 +66,6 @@ a {
   --shadow-color: #c6c3a1;
   --tab-hover: #131331;
   --tab-hover-color: #13133a;
+  --border-color: #252546;
+  --placeholder: #252546a1;
 }

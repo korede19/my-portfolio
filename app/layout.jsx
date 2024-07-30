@@ -4,6 +4,7 @@ import "./globals.css";
 import { Providers } from "./providers";
 import { useState, useEffect } from "react";
 import Preloader from "../components/preloader/preloader";
+import Animation from "@/components/animations/animations";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -22,11 +23,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`body`}>
-        {loading ? (
-          <Preloader loading={loading} />
-        ) : (
-          <Providers>{children}</Providers>
-        )}
+        <Animation>
+          {loading ? (
+            <Preloader loading={loading} />
+          ) : (
+            <Providers>{children}</Providers>
+          )}
+        </Animation>
       </body>
     </html>
   );

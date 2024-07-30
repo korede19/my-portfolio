@@ -1,8 +1,10 @@
+"use client";
 import React from "react";
 import ThemeToggleButton from "../components/toggle/toggle";
 import styles from "./page.module.css";
 import FloatingNav from "@/components/floatingNav/floatNav";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 export default function Home() {
   return (
@@ -13,10 +15,22 @@ export default function Home() {
         </div>
         <div className={styles.textContain}>
           <h3>Hi There</h3>
-          <h1>I’M KOREDE</h1>
-          <div className={styles.Aboutbtn}>
-            <p>Web developer / Web designer</p>
-          </div>
+          <motion.div
+            initial={{ y: 100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
+          >
+            <h1>I’M KOREDE</h1>
+          </motion.div>
+          <motion.div
+            initial={{ y: 100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 1.5 }}
+          >
+            <div className={styles.Aboutbtn}>
+              <p>Web developer / Web designer</p>
+            </div>
+          </motion.div>
           <div className={styles.textBody}>
             <p>
               Hi, Korede, a passionate web developer and designer with a keen
@@ -31,11 +45,17 @@ export default function Home() {
               turning ideas into engaging digital experiences.
             </p>
           </div>
-          <div className={styles.btnContain}>
-            <Link href="/about">
-              <button>More About Me</button>
-            </Link>
-          </div>
+          <motion.div
+            initial={{ y: 100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 2 }}
+          >
+            <div className={styles.btnContain}>
+              <Link href="/about">
+                <button>More About Me</button>
+              </Link>
+            </div>
+          </motion.div>
         </div>
       </div>
       <div className={styles.colTwo}>

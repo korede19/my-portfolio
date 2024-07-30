@@ -1,9 +1,11 @@
+"use client";
 import React from "react";
 import styles from "./media.module.css";
 import Gmail from "@/svg/mail";
 import Phone from "@/svg/phone";
 import Linkedln from "@/svg/linkedln";
 import Twitter from "@/svg/twitter";
+import { motion } from "framer-motion";
 
 const Media = () => {
   return (

@@ -1,0 +1,86 @@
+.formContain {
+  background-color: var(--background-2);
+  box-shadow: 0px 4px 4px 0px #00000040;
+  padding: 37px 42px;
+  margin-top: 36px;
+  border-radius: 20px;
+}
+
+.formContain p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30.24px;
+  text-align: left;
+  color: var(--color);
+  padding-bottom: 20px;
+}
+
+.input {
+  font-family: "outfit", sans-serif;
+  font-size: 16px;
+  background-color: transparent;
+  border: 1px solid var(--border-color);
+  height: 44px;
+  border-radius: 4px;
+  padding: 0px 14px;
+  outline: none;
+  font-weight: 300;
+}
+
+.input::placeholder {
+  color: var(--placeholder);
+  font-family: "outfit", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  outline: none;
+}
+
+.contain {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.textarea {
+  font-family: "outfit", sans-serif;
+  font-size: 16px;
+  height: 126px;
+  background-color: transparent;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 14px;
+  outline: none;
+  font-weight: 300;
+}
+
+.textarea::placeholder {
+  font-family: "outfit", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: var(--placeholder);
+}
+
+.formBtn {
+  width: 20%;
+  margin-top: 20px;
+  box-sizing: border-box;
+  padding: 0px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.formBtn p {
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: var(--tab-hover);
+  color: var(--color-2);
+  border-radius: 4px;
+}
+
+.errorMessage {
+  font-size: 14px !important;
+  padding: 0px !important;
+  font-weight: 300 !important;
+}

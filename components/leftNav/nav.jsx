@@ -46,7 +46,15 @@ const LeftNav = () => {
             </p>
           </Link>
           <Arrow />
-          <p>Contact</p>
+          <Link href="/contact" className={styles.linkStyle}>
+            <p
+              className={classNames({
+                [styles.active]: pathname === "/contact",
+              })}
+            >
+              Contact
+            </p>
+          </Link>
         </div>
         <div className={styles.globalBtn}>
           <ThemeToggleButton />
