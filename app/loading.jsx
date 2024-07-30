@@ -1,7 +1,18 @@
-import React from "react";
+const MyPage = ({ data }) => {
+  if (!data) {
+    return (
+      <div>
+        <p>Loading...</p>
+      </div>
+    );
+  }
 
-const Loading = () => {
-  return <h2>Loading....</h2>;
+  return (
+    <div>
+      <h1>My Page</h1>
+      <p>{data}</p>
+    </div>
+  );
 };
 
-export default Loading;
+export default MyPage;
