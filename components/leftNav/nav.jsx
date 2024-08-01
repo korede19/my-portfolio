@@ -18,20 +18,15 @@ const LeftNav = () => {
             <p>Home</p>
           </Link>
           <Arrow />
-          <Link href="/about" className={styles.linkStyle} passHref>
-            <p
-              className={classNames({ [styles.active]: pathname === "/about" })}
-            >
-              About Me
-            </p>
+          <Link href="/about" className={styles.linkStyle}>
+            <p className={classNames({ [styles.active]: pathname === "/about" })}>About Me</p>
           </Link>
           <Arrow />
           <Link href="/portfolio" className={styles.linkStyle}>
             <p
               className={classNames({
                 [styles.active]: pathname === "/portfolio",
-              })}
-            >
+              })}>
               Portfolio
             </p>
           </Link>
@@ -40,8 +35,7 @@ const LeftNav = () => {
             <p
               className={classNames({
                 [styles.active]: pathname === "/testimonial",
-              })}
-            >
+              })}>
               Testimonials
             </p>
           </Link>
@@ -50,8 +44,7 @@ const LeftNav = () => {
             <p
               className={classNames({
                 [styles.active]: pathname === "/contact",
-              })}
-            >
+              })}>
               Contact
             </p>
           </Link>
