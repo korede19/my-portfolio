@@ -1,14 +1,14 @@
 const MyPage = ({ data }) => {
   if (!data) {
     return (
-      <div>
+      <div className="loading">
         <p>Loading...</p>
       </div>
     );
   }
 
   return (
-    <div>
+    <div className="loading">
       <h1>My Page</h1>
       <p>{data}</p>
     </div>
