@@ -10,13 +10,22 @@ const PortfolioAll = () => {
   return (
     <div>
       <div className={styles.tabContain}>
-        <p className={active === "" ? styles.active : ""} onClick={() => setActive("")}>
+        <p
+          className={active === "" ? styles.active : ""}
+          onClick={() => setActive("")}
+        >
           All
         </p>
-        <p onClick={() => setActive("Wordpress")} className={active === "Wordpress" ? styles.active : ""}>
+        <p
+          onClick={() => setActive("Wordpress")}
+          className={active === "Wordpress" ? styles.active : ""}
+        >
           Wordpress
         </p>
-        <p className={active === "Javascript" ? styles.active : ""} onClick={() => setActive("Javascript")}>
+        <p
+          className={active === "Javascript" ? styles.active : ""}
+          onClick={() => setActive("Javascript")}
+        >
           Javascript
         </p>
       </div>
@@ -28,8 +37,18 @@ const PortfolioAll = () => {
           })
           ?.map((item, index) => {
             return (
-              <motion.div key={index} initial={{ y: 100, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 1, delay: index * 0.5 }}>
-                <Portfolio image={item.image} title={item.title} text={item.text} />
+              <motion.div
+                key={index}
+                initial={{ y: 100, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 1, delay: index * 0.5 }}
+              >
+                <Portfolio
+                  image={item.image}
+                  title={item.title}
+                  text={item.text}
+                  link={item.link}
+                />
               </motion.div>
             );
           })}

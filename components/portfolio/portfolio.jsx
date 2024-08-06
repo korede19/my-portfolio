@@ -1,15 +1,18 @@
 import React from "react";
 import styles from "./portfolio.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
-const Portfolio = ({ image, title, text }) => {
+const Portfolio = ({ image, title, text, link }) => {
   return (
     <>
       <div className={styles.portContainer}>
-        <Image src={image} alt="img" width={550} height={250} priority />
+        <Image src={image} alt="img" width={550} height={360} priority />
         <h2>{title}</h2>
         <p>{text}</p>
-        <button className={styles.portBtn}> Visit Site </button>
+        <Link href={link} target="_blank">
+          <button className={styles.portBtn}> Visit Site </button>
+        </Link>
       </div>
     </>
   );

@@ -7,7 +7,6 @@ import imageSix from "../public/assets/react.png";
 import imageSeven from "../public/assets/git.png";
 import imageEight from "../public/assets/next.png";
 import imageNine from "../public/assets/typescript.png";
-import portImg from "../public/assets/port1.png";
 import portTwo from "../public/assets/port2.png";
 import Testimonialimg from "../public/assets/testimonial.png";
 
@@ -34,59 +33,61 @@ export const logoImage = [
 
 export const portfolio = [
   {
-    image: portImg,
-    title: "LOREM IPSUM",
+    image: "/assets/Thrynex.png",
+    title: "THRYNEX",
     tech: "Wordpress",
     text: "Lorem ipsum dolor sit amet consectetur. Urna gravida nibh ac ut ullamcorper praesent faucibus. Vestibulum fermentum mauris ultrices nulla orci nulla vehicula fusce aliquam. .",
+    link: "https://thrynex.com/",
   },
   {
-    image: portTwo,
-    title: "LOREM IPSUM",
+    image: "/assets/globasnet.png",
+    title: "GLOBASNET",
     tech: "Wordpress",
     text: "Lorem ipsum dolor sit amet consectetur. Urna gravida nibh ac ut ullamcorper praesent faucibus. Vestibulum fermentum mauris ultrices nulla orci nulla vehicula fusce aliquam. .",
+    link: "https://www.globasnet.com/",
   },
   {
-    image: portImg,
-    title: "LOREM IPSUM",
-    tech: "Wordpress",
-    text: "Lorem ipsum dolor sit amet consectetur. Urna gravida nibh ac ut ullamcorper praesent faucibus. Vestibulum fermentum mauris ultrices nulla orci nulla vehicula fusce aliquam. .",
-  },
-  {
-    image: portTwo,
-    title: "LOREM IPSUM",
-    tech: "Wordpress",
-    text: "Lorem ipsum dolor sit amet consectetur. Urna gravida nibh ac ut ullamcorper praesent faucibus. Vestibulum fermentum mauris ultrices nulla orci nulla vehicula fusce aliquam. .",
-  },
-  {
-    image: portImg,
-    title: "LOREM IPSUM",
-    tech: "Wordpress",
-    text: "Lorem ipsum dolor sit amet consectetur. Urna gravida nibh ac ut ullamcorper praesent faucibus. Vestibulum fermentum mauris ultrices nulla orci nulla vehicula fusce aliquam. .",
-  },
-  {
-    image: portTwo,
-    title: "LOREM IPSUM",
+    image: "/assets/Emma.png",
+    title: "EMMAOMG",
     tech: "Javascript",
     text: "Lorem ipsum dolor sit amet consectetur. Urna gravida nibh ac ut ullamcorper praesent faucibus. Vestibulum fermentum mauris ultrices nulla orci nulla vehicula fusce aliquam. .",
+    link: "https://www.emmaomg.com/",
+  },
+  {
+    image: "/assets/sprithubglobal.png",
+    title: "SPIRITHUBGLOBAL",
+    tech: "Wordpress",
+    text: "Lorem ipsum dolor sit amet consectetur. Urna gravida nibh ac ut ullamcorper praesent faucibus. Vestibulum fermentum mauris ultrices nulla orci nulla vehicula fusce aliquam. .",
+    link: "https://spirithubglobal.org/",
+  },
+  {
+    image: "/assets/travelshub.png",
+    title: "TRAVELSHUB",
+    tech: "Wordpress",
+    text: "Lorem ipsum dolor sit amet consectetur. Urna gravida nibh ac ut ullamcorper praesent faucibus. Vestibulum fermentum mauris ultrices nulla orci nulla vehicula fusce aliquam. .",
+    link: "https://travelhubs.net",
+  },
+  {
+    image: "/assets/skillweed.png",
+    title: "SKILLWEED",
+    tech: "Wordpress",
+    text: "Lorem ipsum dolor sit amet consectetur. Urna gravida nibh ac ut ullamcorper praesent faucibus. Vestibulum fermentum mauris ultrices nulla orci nulla vehicula fusce aliquam. .",
+    link: "https://skillweed.com/",
+  },
+  {
+    image: "/assets/Bellustouch.png",
+    title: "BELLUS TOUCH",
+    tech: "Wordpress",
+    text: "Lorem ipsum dolor sit amet consectetur. Urna gravida nibh ac ut ullamcorper praesent faucibus. Vestibulum fermentum mauris ultrices nulla orci nulla vehicula fusce aliquam. .",
+    link: "https://bellustouchcleaning.com/",
   },
 
   {
-    image: portImg,
-    title: "LOREM IPSUM",
+    image: "/assets/portfolio.png",
+    title: "MY PORTFOLIO",
     tech: "Javascript",
     text: "Lorem ipsum dolor sit amet consectetur. Urna gravida nibh ac ut ullamcorper praesent faucibus. Vestibulum fermentum mauris ultrices nulla orci nulla vehicula fusce aliquam. .",
-  },
-  {
-    image: portTwo,
-    title: "LOREM IPSUM",
-    tech: "Javascript",
-    text: "Lorem ipsum dolor sit amet consectetur. Urna gravida nibh ac ut ullamcorper praesent faucibus. Vestibulum fermentum mauris ultrices nulla orci nulla vehicula fusce aliquam. .",
-  },
-  {
-    image: portTwo,
-    title: "LOREM IPSUM",
-    tech: "Javascript",
-    text: "Lorem ipsum dolor sit amet consectetur. Urna gravida nibh ac ut ullamcorper praesent faucibus. Vestibulum fermentum mauris ultrices nulla orci nulla vehicula fusce aliquam. .",
+    link: "https://kaycode-portfolio.netlify.app/",
   },
 ];
 

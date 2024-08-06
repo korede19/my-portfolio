@@ -119,12 +119,6 @@
   margin-bottom: 20px;
 }
 
-.iconHover:hover {
-  fill: var(--icon-hover);
-  fillOpacity: 1;
-}
-
 .active {
   fill: var(--icon-hover);
-  fillOpacity: 1;
 }
