@@ -7,7 +7,6 @@ import imageSix from "../public/assets/react.png";
 import imageSeven from "../public/assets/git.png";
 import imageEight from "../public/assets/next.png";
 import imageNine from "../public/assets/typescript.png";
-import portTwo from "../public/assets/port2.png";
 import Testimonialimg from "../public/assets/testimonial.png";
 
 export const expText = [
