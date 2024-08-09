@@ -9,7 +9,12 @@ import { motion } from "framer-motion";
 
 const Media = () => {
   return (
-    <motion.div initial={{ y: 100, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 2 }} className={styles.mediaContain}>
+    <motion.div
+      initial={{ y: 100, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 2 }}
+      className={styles.mediaContainer}
+    >
       <div className={styles.mediaColOne}>
         <h3>Get In Touch</h3>
         <div className={styles.mediaIcon}>

@@ -63,20 +63,21 @@
 .formBtn {
   width: 20%;
   margin-top: 20px;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   padding: 0px;
   border: 0px;
   cursor: pointer;
+  border-radius: 4px;
+  background-color: var(--tab-hover);
+  padding: 10px 0px;
 }
 
 .formBtn p {
-  padding: 10px;
   text-align: center;
   font-size: 18px;
   font-weight: 400;
-  background-color: var(--tab-hover);
   color: var(--color-2);
-  border-radius: 4px;
+  padding: 0px !important;
 }
 
 .errorMessage {
