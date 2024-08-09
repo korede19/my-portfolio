@@ -25,6 +25,7 @@
   padding: 0px 14px;
   outline: none;
   font-weight: 300;
+  color: var(--color);
 }
 
 .input::placeholder {
@@ -51,6 +52,7 @@
   padding: 14px;
   outline: none;
   font-weight: 300;
+  color: var(--color);
 }
 
 .textarea::placeholder {
@@ -63,7 +65,6 @@
 .formBtn {
   width: 20%;
   margin-top: 20px;
-  /* box-sizing: border-box; */
   padding: 0px;
   border: 0px;
   cursor: pointer;
