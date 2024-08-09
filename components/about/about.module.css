@@ -1,0 +1,19 @@
+.aboutText {
+  background-color: var(--background-2);
+  color: var(--color);
+  margin-top: 20px;
+  padding: 28px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.aboutText p {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 25.2px;
+  text-align: left;
+}
