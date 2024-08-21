@@ -1,0 +1,26 @@
+.MobileHead {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .MobileHead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    height: 10vh;
+    background-color: var(--background);
+  }
+
+  .colTwo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .colOne h1 {
+    font-size: 25px;
+    color: var(--color);
+  }
+}

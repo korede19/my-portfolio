@@ -6,6 +6,8 @@ import LightMode from "@/svg/light";
 import { useDispatch } from "react-redux";
 import { useAppSelector } from "@/redux/store/store";
 import { setTheme } from "@/redux/slice/theme";
+import MobileDark from "@/svg/mobileDark";
+import MobileLight from "@/svg/mobileLight";
 
 const ThemeToggleButton = () => {
   const theme = useAppSelector((store) => store.theme);
@@ -32,6 +34,16 @@ const ThemeToggleButton = () => {
           disabled={theme === "dark"}
         >
           <LightMode />
+        </button>
+      </div>
+      <div className={styles.mobileSwitch}>
+        <button
+          className={styles.thememobile}
+          onClick={() =>
+            dispatch(setTheme(theme === "light" ? "dark" : "light"))
+          }
+        >
+          {theme === "light" ? <MobileDark /> : <MobileLight />}
         </button>
       </div>
     </>

@@ -3,17 +3,31 @@ import React from "react";
 import ThemeToggleButton from "../components/toggle/toggle";
 import styles from "./page.module.css";
 import FloatingNav from "@/components/floatingNav/floatNav";
+import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import MobileMenu from "@/components/mobileMenu";
+import MobileHead from "@/components/mobileHead";
 
 export default function Home() {
   return (
     <div className={styles.homeContainer}>
+      <MobileHead Pagename="Home" />
       <div className={styles.colOne}>
         <div className={styles.toogleBtn}>
           <ThemeToggleButton />
         </div>
+
         <div className={styles.textContain}>
+          <div className={styles.mobileImage}>
+            <Image
+              src="/assets/profile.png"
+              width={340}
+              height={500}
+              alt="profile"
+              className={styles.profileImg}
+            />
+          </div>
           <h3>Hi There</h3>
           <motion.div
             initial={{ y: 100, opacity: 0 }}
@@ -58,6 +72,7 @@ export default function Home() {
           </motion.div>
         </div>
       </div>
+      <MobileMenu />
       <div className={styles.colTwo}>
         <div className={styles.iconMenu}>
           <FloatingNav />

@@ -16,12 +16,12 @@
 
 .colOne::-webkit-scrollbar {
   background-color: var(--color);
-  width: 2px;
+  width: 1px;
 }
 
 .colOne::-webkit-scrollbar {
   background-color: transparent;
-  width: 15px;
+  width: 10px;
 }
 
 .colOne::-webkit-scrollbar-track {
@@ -121,4 +121,52 @@
 
 .active {
   fill: var(--icon-hover);
+}
+
+.mobileImage {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .homeContainer {
+    flex-direction: column;
+    height: 100vh;
+  }
+  .colTwo {
+    display: none;
+  }
+
+  .colOne {
+    width: unset;
+    padding: 30px 20px;
+  }
+
+  .toogleBtn {
+    padding-top: 0px;
+  }
+
+  .textContain {
+    margin-top: 60px;
+  }
+
+  .textContain h1 {
+    font-size: 60px;
+  }
+  .textBody p {
+    font-size: 16px;
+  }
+
+  .mobileImage {
+    display: block;
+    padding-bottom: 20px;
+  }
+
+  .profileImg {
+    border-radius: 10px;
+    height: 100%;
+  }
+
+  .toogleBtn {
+    display: none;
+  }
 }
