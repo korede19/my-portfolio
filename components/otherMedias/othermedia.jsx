@@ -33,6 +33,7 @@ const OtherMedia = () => {
           </button>
         </div>
       </div>
+      <div className={styles.spacer}></div>
     </motion.div>
   );
 };

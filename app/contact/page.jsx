@@ -6,7 +6,7 @@ import OtherMedia from "@/components/otherMedias/othermedia";
 
 const Contact = () => {
   return (
-    <Layout text="CONTACT">
+    <Layout text="CONTACT" head="Contact">
       <ContactForm />
       <Media />
       <OtherMedia />

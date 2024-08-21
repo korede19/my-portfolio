@@ -86,3 +86,9 @@
   padding: 0px !important;
   font-weight: 300 !important;
 }
+
+@media screen and (max-width: 500px) {
+  .formContain {
+    padding: 20px;
+  }
+}

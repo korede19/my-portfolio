@@ -32,3 +32,13 @@
   transition: unset;
   color: #fff !important;
 }
+
+@media screen and (max-width: 500px) {
+  .Container {
+    grid-template-columns: auto;
+  }
+
+  .tabContain {
+    display: none;
+  }
+}

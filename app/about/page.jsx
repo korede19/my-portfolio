@@ -6,7 +6,7 @@ import AboutText from "@/components/about/about";
 
 const AboutPage = () => {
   return (
-    <Layout text="ABOUT ME">
+    <Layout text="ABOUT ME" head="About">
       <AboutText />
       <AboutTab />
       <Media />

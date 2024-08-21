@@ -10,3 +10,17 @@
 .tabTwo {
   width: 50%;
 }
+
+@media screen and (max-width: 500px) {
+  .Tabcontain {
+    flex-direction: column;
+  }
+
+  .tabOne {
+    width: unset;
+  }
+
+  .tabTwo {
+    width: unset;
+  }
+}

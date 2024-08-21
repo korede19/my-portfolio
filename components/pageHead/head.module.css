@@ -14,3 +14,16 @@
   text-align: center;
   color: var(--color);
 }
+
+@media screen and (max-width: 500px) {
+  .headerContain {
+    border-radius: 10px;
+    margin-top: 40px;
+  }
+
+  .headerContain h1 {
+    font-size: 50px !important;
+    line-height: 30.8px;
+    padding: 10px 0px;
+  }
+}

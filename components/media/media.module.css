@@ -61,3 +61,27 @@
   line-height: 17.64px;
   text-align: left;
 }
+
+.spacerP {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .mediaContainer {
+    flex-direction: column !important;
+    margin-bottom: 10px;
+  }
+
+  .mediaColOne {
+    width: unset;
+  }
+
+  .mediaColTwo {
+    width: unset;
+  }
+
+  .spacer {
+    padding: 10px;
+    height: 10px;
+  }
+}

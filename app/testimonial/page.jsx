@@ -4,7 +4,7 @@ import Layout from "@/layout";
 
 const Testimonials = () => {
   return (
-    <Layout text="TESTIMONIALS">
+    <Layout text="TESTIMONIALS" head="Testimonials">
       <TestimonialAll />
     </Layout>
   );

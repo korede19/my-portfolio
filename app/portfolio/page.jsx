@@ -4,7 +4,7 @@ import Layout from "@/layout";
 
 const Portfolio = () => {
   return (
-    <Layout text="PORTFOLIO">
+    <Layout text="PORTFOLIO" head="Portfolio">
       <PortfolioAll />
     </Layout>
   );

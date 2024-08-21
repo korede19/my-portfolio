@@ -37,6 +37,7 @@ const Media = () => {
           <p>@koredesimon_ </p>
         </div>
       </div>
+      <div className={styles.spacer}></div>
     </motion.div>
   );
 };

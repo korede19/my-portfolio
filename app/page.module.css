@@ -139,7 +139,7 @@
   .colOne {
     width: unset;
     height: 80vh;
-    padding: 30px 20px;
+    padding: 50px 20px;
   }
 
   .toogleBtn {
@@ -151,7 +151,7 @@
   }
 
   .textContain h1 {
-    font-size: 60px;
+    font-size: 50px;
   }
   .textBody p {
     font-size: 16px;

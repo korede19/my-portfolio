@@ -5,12 +5,13 @@
 @media screen and (max-width: 500px) {
   .iconMenu {
     display: flex;
-    padding: 0px 20px;
     gap: 20px;
     height: 10vh;
     position: sticky;
+    bottom: 0;
+    width: 100%;
     align-items: center;
-    justify-content: space-between;
-    background-color: var(--background);
+    justify-content: space-around;
+    background-color: var(--background-2);
   }
 }

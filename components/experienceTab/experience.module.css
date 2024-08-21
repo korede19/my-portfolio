@@ -30,3 +30,17 @@
   flex-direction: column;
   gap: 10px;
 }
+
+@media screen and (max-width: 500px) {
+  .expContainer {
+    height: unset;
+  }
+
+  .expContainer h1 {
+    font-size: 20px;
+  }
+
+  .textContain p {
+    font-size: 16px !important;
+  }
+}
