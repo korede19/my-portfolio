@@ -80,6 +80,14 @@
     width: unset;
   }
 
+  .mediaIcon p {
+    font-size: 16px !important;
+  }
+
+  .mediaColTwo h3 {
+    font-size: 20px !important;
+  }
+
   .spacer {
     padding: 10px;
     height: 10px;

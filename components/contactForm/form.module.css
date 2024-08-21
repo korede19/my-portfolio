@@ -91,4 +91,9 @@
   .formContain {
     padding: 20px;
   }
+
+  .formBtn {
+    width: unset;
+    padding: 5px 40px;
+  }
 }

@@ -87,6 +87,14 @@
     width: unset;
   }
 
+  .mediaColOne h3 {
+    font-size: 20px !important;
+  }
+
+  .mediaIcon p {
+    font-size: 16px !important;
+  }
+
   .spacer {
     display: block;
     height: 10px;
