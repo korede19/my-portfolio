@@ -1,11 +1,9 @@
-"use client";
 import React from "react";
 import ThemeToggleButton from "../components/toggle/toggle";
 import styles from "./page.module.css";
 import FloatingNav from "@/components/floatingNav/floatNav";
 import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
 import MobileMenu from "@/components/mobileMenu";
 import MobileHead from "@/components/mobileHead";
 
@@ -29,22 +27,11 @@ export default function Home() {
             />
           </div>
           <h3>Hi There</h3>
-          <motion.div
-            initial={{ y: 100, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 1 }}
-          >
-            <h1>I’M KOREDE</h1>
-          </motion.div>
-          <motion.div
-            initial={{ y: 100, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 1.5 }}
-          >
-            <div className={styles.Aboutbtn}>
-              <p>Web developer / Web designer</p>
-            </div>
-          </motion.div>
+          <h1>I’M KOREDE</h1>
+          <div className={styles.Aboutbtn}>
+            <p>Web developer / Web designer</p>
+          </div>
+
           <div className={styles.textBody}>
             <p>
               Hi, Korede, a passionate web developer and designer with a keen
@@ -59,17 +46,11 @@ export default function Home() {
               turning ideas into engaging digital experiences.
             </p>
           </div>
-          <motion.div
-            initial={{ y: 100, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 2 }}
-          >
-            <div className={styles.btnContain}>
-              <Link href="/about">
-                <button>More About Me</button>
-              </Link>
-            </div>
-          </motion.div>
+          <div className={styles.btnContain}>
+            <Link href="/about">
+              <button>More About Me</button>
+            </Link>
+          </div>
         </div>
       </div>
       <MobileMenu />

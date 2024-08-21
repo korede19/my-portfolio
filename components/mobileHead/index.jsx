@@ -47,7 +47,7 @@ const MobileHead = ({ Pagename }) => {
                   </li>
                   <Arrow />
                   <li>
-                    <Link href="/testimonials">Testimonials</Link>
+                    <Link href="/testimonial">Testimonials</Link>
                   </li>
                   <Arrow />
                   <li>

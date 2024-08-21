@@ -1,4 +1,3 @@
-"use client";
 import LeftNav from "@/components/leftNav/nav";
 import React from "react";
 import styles from "./styles.module.css";
