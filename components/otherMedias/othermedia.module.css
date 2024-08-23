@@ -77,10 +77,12 @@
 @media screen and (max-width: 500px) {
   .mediaContain {
     flex-direction: column;
+    box-sizing: border-box;
   }
 
   .mediaColOne {
     width: unset;
+    margin-top: 150px;
   }
 
   .mediaColTwo {

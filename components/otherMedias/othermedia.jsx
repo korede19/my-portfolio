@@ -4,16 +4,11 @@ import styles from "./othermedia.module.css";
 import Github from "@/svg/github";
 import WhatsApp from "@/svg/whatsApp";
 import Download from "@/svg/download";
-import { motion } from "framer-motion";
 
 const OtherMedia = () => {
   return (
-    <motion.div
-      initial={{ y: 100, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 2.5 }}
-      className={styles.mediaContain}
-    >
+    <>
+    <div className={styles.mediaContain}>
       <div className={styles.mediaColOne}>
         <h3>Other Platforms</h3>
         <div className={styles.mediaIcon}>
@@ -32,9 +27,9 @@ const OtherMedia = () => {
             <p> Dowload Resumé </p> <Download />
           </button>
         </div>
+        </div>
       </div>
-      <div className={styles.spacer}></div>
-    </motion.div>
+    </>
   );
 };
 

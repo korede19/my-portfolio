@@ -9,6 +9,7 @@ import { motion } from "framer-motion";
 
 const Media = () => {
   return (
+    <>
     <motion.div
       initial={{ y: 100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
@@ -37,8 +38,8 @@ const Media = () => {
           <p>@koredesimon_ </p>
         </div>
       </div>
-      <div className={styles.spacer}></div>
     </motion.div>
+    </>
   );
 };
 
