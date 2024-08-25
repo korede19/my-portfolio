@@ -7,7 +7,7 @@ const Portfolio = ({ image, title, text, link }) => {
   return (
     <>
       <div className={styles.portContainer}>
-        <Image src={image} alt="img" width={550} height={360} priority />
+        <Image src={image} alt="img" width={500} height={400} className={styles.portImg} loading="lazy" />
         <h2>{title}</h2>
         <p>{text}</p>
         <Link href={link} target="_blank">
