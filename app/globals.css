@@ -50,6 +50,8 @@ a {
   --tab-hover-color: #4f4f75;
   --border-color: #ffffff80;
   --placeholder: #ffffff80;
+  --otherBackground: #31314e;
+  --toogleColor: #e0e0e0;
 }
 
 [data-theme="light"] {
@@ -69,6 +71,8 @@ a {
   --tab-hover-color: #13133a;
   --border-color: #252546;
   --placeholder: #252546a1;
+  --otherBackground: #f5f5f5;
+  --toogleColor: #12133a;
 }
 
 .loading {
