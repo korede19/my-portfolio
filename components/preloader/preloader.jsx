@@ -15,7 +15,7 @@ const Preloader = ({ loading }) => {
         color={"#3498db"}
         loading={loading}
         cssOverride={override}
-        size={80}
+        size={60}
       />
       <style jsx>{`
         .preloader {
