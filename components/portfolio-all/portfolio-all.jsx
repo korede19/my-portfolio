@@ -23,10 +23,10 @@ const PortfolioAll = () => {
           Wordpress
         </p>
         <p
-          className={active === "Javascript" ? styles.active : ""}
-          onClick={() => setActive("Javascript")}
+          className={active === "Advanced" ? styles.active : ""}
+          onClick={() => setActive("Advanced")}
         >
-          Javascript
+          Js/ Ts
         </p>
       </div>
       <div className={styles.Container}>

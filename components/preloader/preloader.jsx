@@ -1,6 +1,5 @@
-"use client";
-import { useEffect, useState } from "react";
-import DotLoader from "react-spinners/DotLoader";
+import RotatingLines from "react-spinners";
+import { InfinitySpin } from "react-loader-spinner";
 
 const Preloader = ({ loading }) => {
   const override = {
@@ -11,12 +10,8 @@ const Preloader = ({ loading }) => {
 
   return (
     <div className={`preloader ${loading ? "show" : ""}`}>
-      <DotLoader
-        color={"#3498db"}
-        loading={loading}
-        cssOverride={override}
-        size={60}
-      />
+      <InfinitySpin color="#fff" width="200" />
+      <p>Loading...</p>
       <style jsx>{`
         .preloader {
           position: fixed;
@@ -25,8 +20,10 @@ const Preloader = ({ loading }) => {
           left: 0;
           width: 100%;
           height: 100%;
-          background-color: var(--background-2);
+          background-color: #252546;
           display: flex;
+          flex-direction: column;
+          color: #fff;
           justify-content: center;
           align-items: center;
           opacity: 0;

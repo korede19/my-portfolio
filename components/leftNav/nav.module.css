@@ -1,8 +1,8 @@
 .imageContain {
   height: 30vh;
-  background-image: url("../../public/assets/profile.png");
+  background-image: url("../../public/assets/newprofile.png");
   background-size: cover;
-  background-position: center center;
+  background-position: top;
   background-repeat: no-repeat;
   transition: background 1s ease-in;
 }

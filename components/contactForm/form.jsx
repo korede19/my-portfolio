@@ -11,16 +11,19 @@ const ContactForm = () => {
     register,
     handleSubmit,
     formState: { errors },
+    reset,
   } = useForm();
 
   const [loading, setLoading] = useState(false);
 
-  const onSubmit = (e) => {
+  const submit = (data) => {
     setLoading(true);
-    const data = {
-      name: e.name,
-      email: e.email,
-      message: e.message,
+    const requestData = {
+      name: data.name, // Field names matched correctly
+      from: data.email,
+      subject: "IMPORTANT -  New mail from website",
+      body: `<p>Hi Korede, ${data.name} sent you a message</p>
+              <p>${data.message}</p>`,
     };
 
     const options = {
@@ -28,29 +31,21 @@ const ContactForm = () => {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify(data),
+      body: JSON.stringify(requestData),
     };
 
-    console.log("Submitting form with data:", data);
-    console.log("Fetch options:", options);
-
     fetch(`/api/send`, options)
-      .then((response) => {
-        console.log(response);
-        if (!response.ok) throw new Error(response.statusText);
-        return response.json();
-      })
       .then(() => {
-        toast.success("Message sent Successfully");
+        toast.success("Message sent successfully");
         setLoading(false);
         reset();
       })
-      .catch((error) => {
-        console.error("Error:", error);
+      .catch(() => {
         setLoading(false);
-        toast.error("Something went wrong!! Please try again");
+        toast.error("Something went wrong! Please try again");
       });
   };
+
   return (
     <motion.div
       initial={{ y: 100, opacity: 0 }}
@@ -59,7 +54,7 @@ const ContactForm = () => {
       className={styles.formContain}
     >
       <p>Reach Out</p>
-      <form onSubmit={handleSubmit(onSubmit)}>
+      <form onSubmit={handleSubmit(submit)}>
         <div className={styles.contain}>
           <input
             type="text"

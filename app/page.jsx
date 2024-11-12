@@ -19,9 +19,10 @@ export default function Home() {
         <div className={styles.textContain}>
           <div className={styles.mobileImage}>
             <Image
-              src="/assets/profile.png"
+              src="/assets/newprofile.png"
               width={340}
               height={500}
+              priority
               alt="profile"
               className={styles.profileImg}
             />

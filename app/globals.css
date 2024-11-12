@@ -89,7 +89,9 @@ a {
   width: 100%;
   height: 100vh;
   display: flex;
+  flex-direction: column;
+  color: #fff;
   align-items: center;
   justify-content: center;
-  background-color: var(--background);
+  background-color: #252546;
 }

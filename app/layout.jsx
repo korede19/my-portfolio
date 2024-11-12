@@ -1,9 +1,10 @@
 "use client";
 import "./globals.css";
-// import { Providers } from "./providers";
 import { useState, useEffect } from "react";
 import Preloader from "../components/preloader/preloader";
 import { Providers } from "@/redux/provider";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function RootLayout({ children }) {
   const [loading, setLoading] = useState(true);
@@ -15,7 +16,14 @@ export default function RootLayout({ children }) {
   }, []);
   return (
     <html lang="en">
-      <body className={`body`}>{loading ? <Preloader loading={loading} /> : <Providers>{children}</Providers>}</body>
+      <body className={`body`}>
+        <ToastContainer />
+        {loading ? (
+          <Preloader loading={loading} />
+        ) : (
+          <Providers>{children}</Providers>
+        )}
+      </body>
     </html>
   );
 }

@@ -5,6 +5,7 @@ import Github from "@/svg/github";
 import WhatsApp from "@/svg/whatsApp";
 import Download from "@/svg/download";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const OtherMedia = () => {
   return (
@@ -19,18 +20,37 @@ const OtherMedia = () => {
           <h3>Other Platforms</h3>
           <div className={styles.mediaIcon}>
             <Github />
-            <p>@korede19 </p>
+            <Link
+              href="https://github.com/korede19"
+              target="_blank"
+              className={styles.mediaLink}
+            >
+              @korede19
+            </Link>
           </div>
           <div className={styles.mediaIcon}>
             <WhatsApp />
-            <p>+234 81 381 310 61</p>
+            <Link
+              href="https://wa.link/tptsfa"
+              target="_blank"
+              className={styles.mediaLink}
+            >
+              +234 81 381 310 61
+            </Link>
           </div>
         </div>
         <div className={styles.mediaColTwo}>
           <h3>Resumé</h3>
           <div className={styles.mediaIcon}>
             <button className={styles.downloadBtn}>
-              <p> Dowload Resumé </p> <Download />
+              <Link
+                href="/CV.pdf"
+                Download
+                target="_blank"
+                className={styles.btnLink}
+              >
+                Dowload Resumé <Download />
+              </Link>
             </button>
           </div>
         </div>

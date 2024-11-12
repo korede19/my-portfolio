@@ -34,9 +34,16 @@ export const portfolio = [
   {
     image: "/assets/Thrynex.png",
     title: "THRYNEX",
-    tech: "Wordpress",
-    text: "ThryNex is dedicated to forging the path to businesses incredible success. They uniquely blend creativity and innovation with advanced information technology to solve clients’ problems and set them apart from the competition.",
+    tech: "Advanced",
+    text: "I developed the project using TypeScript and Next.js, leveraging Framer Motion to create engaging animations. I implemented smooth on-scroll animations that add interactivity and depth to the user experience while optimizing performance for rapid loading times and seamless navigation.",
     link: "https://thrynex.com/",
+  },
+  {
+    image: "/assets/afrigent.png",
+    title: "AFRIGENT DIGITAL",
+    tech: "Advanced",
+    text: "I built the project using TypeScript and Next.js, utilizing Framer Motion to craft captivating animations. I integrated smooth on-scroll animations to enhance interactivity and provide depth to the user experience, all while optimizing performance for fast loading times and effortless navigation.",
+    link: "https://afrigentdigital.com/",
   },
   {
     image: "/assets/globasnet.png",
@@ -48,7 +55,7 @@ export const portfolio = [
   {
     image: "/assets/Emma.png",
     title: "EMMAOMG",
-    tech: "Javascript",
+    tech: "Advanced",
     text: "Assisted in the development of a visually stunning and highly functional portfolio website for EMMA OMG, focusing on showcasing achievements, content organization, and user engagement. Employed modern design trends and utilized React to create a dynamic, personalized experience tailored to the client's brand.",
     link: "https://www.emmaomg.com/",
   },
@@ -80,11 +87,18 @@ export const portfolio = [
     text: "Bellus Touch is a website that provides professional home and commercial cleaning services. The website was developed with WordPress and it includes functions like online booking and payment",
     link: "https://bellustouchcleaning.com/",
   },
+  {
+    image: "/assets/shareprompts.png",
+    title: "SHARE PROMPTS",
+    tech: "Advanced",
+    text: "This is a personal project—a comprehensive full-stack application developed with Next.js. It utilizes MongoDB for the database, NextAuth for seamless authentication, and leverages Google Cloud Console for hosting and infrastructure.",
+    link: "https://shareprompts.netlify.app/",
+  },
 
   {
     image: "/assets/portfolio.png",
     title: "MY PORTFOLIO",
-    tech: "Javascript",
+    tech: "Advanced",
     text: "This is a portfolio website, the site was developed using Next JS , Redux Toolkit and some other libraries. The site is fully responsive and animated with framer motion.",
     link: "https://kaycode-portfolio.netlify.app/",
   },
@@ -93,12 +107,12 @@ export const portfolio = [
 export const Testimonial = [
   {
     image: Testimonialimg,
-    title: "LOREM IPSUM",
+    title: "AFRIGENT DIGITAL",
     text: "Lorem ipsum dolor sit amet consectetur. Vel viverra vitae condimentum integer ut nullam semper lacus ipsum. Nisi semper malesuada condimentum sem sollicitudin ac.",
   },
   {
     image: Testimonialimg,
-    title: "LOREM IPSUM",
+    title: "THRYNEX",
     text: "Lorem ipsum dolor sit amet consectetur. Vel viverra vitae condimentum integer ut nullam semper lacus ipsum. Nisi semper malesuada condimentum sem sollicitudin ac.",
   },
   {
