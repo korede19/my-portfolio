@@ -131,7 +131,7 @@
   display: none;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
   .homeContainer {
     flex-direction: column;
     height: 100vh;
@@ -142,16 +142,12 @@
 
   .colOne {
     width: unset;
-    height: 80vh;
     padding: 50px 20px;
+    justify-content: unset;
   }
 
   .toogleBtn {
     padding-top: 0px;
-  }
-
-  .textContain {
-    margin-top: 60px;
   }
 
   .textContain h1 {
@@ -164,13 +160,10 @@
   .mobileImage {
     display: block;
     padding-bottom: 20px;
-    padding-top: 31rem;
   }
 
   .profileImg {
     border-radius: 10px;
-    height: 100%;
-    width: 100%;
   }
 
   .toogleBtn {

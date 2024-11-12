@@ -2,6 +2,7 @@
   border-radius: 20px;
   display: flex;
   gap: 20px;
+  margin-bottom: 20px;
 }
 
 .mediaContain h3 {
@@ -58,7 +59,7 @@
   font-weight: 400;
   line-height: 17.64px;
   text-align: left;
-  color: #fff;
+  color: var(--color);
 }
 
 .spacerP {
@@ -81,7 +82,7 @@
 
   .linkText {
     font-size: 16px !important;
-    color: #fff;
+    color: var(--color);
   }
 
   .mediaColTwo h3 {

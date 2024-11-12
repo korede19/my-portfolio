@@ -50,7 +50,7 @@
   height: 100vh;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
   .pageContainer {
     display: unset;
   }
@@ -64,8 +64,8 @@
 
   .colTwo {
     width: unset;
-    height: 80vh;
     padding: 0px 20px;
+    height: 80vh;
     box-sizing: border-box;
   }
 }

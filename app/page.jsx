@@ -20,8 +20,8 @@ export default function Home() {
           <div className={styles.mobileImage}>
             <Image
               src="/assets/newprofile.png"
-              width={340}
-              height={500}
+              width={320}
+              height={450}
               priority
               alt="profile"
               className={styles.profileImg}

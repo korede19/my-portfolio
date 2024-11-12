@@ -59,7 +59,7 @@
   font-weight: 400;
   line-height: 17.64px;
   text-align: left;
-  color: #fff;
+  color: var(--color);
 }
 
 .downloadBtn {
@@ -76,7 +76,7 @@
 .btnLink {
   display: flex;
   gap: 10px;
-  color: black;
+  color: var(--btn-color);
   font-size: 14px;
   text-decoration: none;
   cursor: pointer;
@@ -102,7 +102,7 @@
 
   .mediaLink {
     font-size: 16px !important;
-    color: #fff;
+    color: var(--color);
   }
 
   .spacer {
