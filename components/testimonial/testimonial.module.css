@@ -15,9 +15,12 @@
 
 .textContain {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 .textContain h2 {
-  font-size: 24px;
+  font-size: 25px;
   font-weight: 600;
   line-height: 30.24px;
   text-align: left;
@@ -25,8 +28,8 @@
 }
 
 .textContain p {
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 17px;
+  font-weight: 300;
   line-height: 30.24px;
   text-align: left;
   color: var(--color);

@@ -11,7 +11,7 @@ const Preloader = ({ loading }) => {
   return (
     <div className={`preloader ${loading ? "show" : ""}`}>
       <InfinitySpin color="#fff" width="200" />
-      <p>Loading...</p>
+      <p>LOADING</p>
       <style jsx>{`
         .preloader {
           position: fixed;
@@ -29,6 +29,8 @@ const Preloader = ({ loading }) => {
           opacity: 0;
           visibility: hidden;
           z-index: 9999;
+          font-size: 12px;
+          letter-spacing: 15px;
         }
         .preloader.show {
           opacity: 1;

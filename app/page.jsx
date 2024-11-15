@@ -7,6 +7,12 @@ import Link from "next/link";
 import MobileMenu from "@/components/mobileMenu";
 import MobileHead from "@/components/mobileHead";
 
+export const metadata = {
+  title: "Korede Digital Designs",
+  description:
+    "Hi, I'm Korede, a passionate web developer and designer with a keen eye for detail and a love for creating beautiful, user-friendly websites.",
+};
+
 export default function Home() {
   return (
     <div className={styles.homeContainer}>
@@ -35,9 +41,9 @@ export default function Home() {
 
           <div className={styles.textBody}>
             <p>
-              Hi, Korede, a passionate web developer and designer with a keen
-              eye for detail and a love for creating beautiful, user-friendly
-              websites.
+              Hi, I'm Korede, a passionate web developer and designer with a
+              keen eye for detail and a love for creating beautiful,
+              user-friendly websites.
             </p>
             <p>
               With expertise in both front-end development and design, I bring a

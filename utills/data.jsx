@@ -7,7 +7,6 @@ import imageSix from "../public/assets/react.png";
 import imageSeven from "../public/assets/git.png";
 import imageEight from "../public/assets/next.png";
 import imageNine from "../public/assets/typescript.png";
-import Testimonialimg from "../public/assets/testimonial.png";
 
 export const expText = [
   {
@@ -106,18 +105,8 @@ export const portfolio = [
 
 export const Testimonial = [
   {
-    image: Testimonialimg,
+    image: "/assets/Afrigent Logo.jpeg",
     title: "AFRIGENT DIGITAL",
-    text: "Lorem ipsum dolor sit amet consectetur. Vel viverra vitae condimentum integer ut nullam semper lacus ipsum. Nisi semper malesuada condimentum sem sollicitudin ac.",
-  },
-  {
-    image: Testimonialimg,
-    title: "THRYNEX",
-    text: "Lorem ipsum dolor sit amet consectetur. Vel viverra vitae condimentum integer ut nullam semper lacus ipsum. Nisi semper malesuada condimentum sem sollicitudin ac.",
-  },
-  {
-    image: Testimonialimg,
-    title: "LOREM IPSUM",
-    text: "Lorem ipsum dolor sit amet consectetur. Vel viverra vitae condimentum integer ut nullam semper lacus ipsum. Nisi semper malesuada condimentum sem sollicitudin ac.",
+    text: "Korede is one of the best to work with. He is super hardworking and always ready to offer the best of his services. He has built numerous websites for our company and also for many of our clients. He’s so easy to work with and doesn’t compromise good work for anything . I recommend him hugely and when I think websites, apps, automations, back ends, I think Korede.",
   },
 ];

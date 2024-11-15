@@ -83,6 +83,7 @@ a {
 
 .loading p {
   color: var(--color);
+  letter-spacing: 20px;
 }
 
 .loader {
@@ -91,7 +92,9 @@ a {
   display: flex;
   flex-direction: column;
   color: #fff;
+  font-size: 12px;
   align-items: center;
   justify-content: center;
   background-color: #252546;
+  letter-spacing: 15px;
 }

@@ -7,7 +7,7 @@ const Loading = () => {
     <div className="loader">
       <InfinitySpin color={"#fff"} width="200" />
       <br />
-      <p>Loading...</p>
+      <p>LOADING</p>
     </div>
   );
 };

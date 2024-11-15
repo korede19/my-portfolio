@@ -20,13 +20,13 @@ const PortfolioAll = () => {
           onClick={() => setActive("Wordpress")}
           className={active === "Wordpress" ? styles.active : ""}
         >
-          Wordpress
+          WordPress
         </p>
         <p
           className={active === "Advanced" ? styles.active : ""}
           onClick={() => setActive("Advanced")}
         >
-          Js/ Ts
+          Next Js
         </p>
       </div>
       <div className={styles.Container}>
