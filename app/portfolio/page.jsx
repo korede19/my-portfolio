@@ -3,7 +3,7 @@ import PortfolioAll from "@/components/portfolio-all/portfolio-all";
 import Layout from "@/layout";
 
 export const metadata = {
-  title: "Testimonial - Korede Digital Designs",
+  title: "Portfolio - Korede Digital Designs",
   description: "Checkout my recent projects",
 };
 
